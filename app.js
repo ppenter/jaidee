@@ -9,14 +9,6 @@ module.exports = {
     {
       "from": "/desk",
       "to": "/jaidee/pages/desk"
-    },
-    {
-      "from": "/calculator",
-      "to": "/jaidee/pages/calculator"
-    },
-    {
-      "from": "/app/:app/:path*",
-      "to": "/:app/pages/:path*"
-    },
+    }
   ]
 }
