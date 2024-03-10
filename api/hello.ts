@@ -1,3 +1,5 @@
-export const GET = (req: any, res: { send: (arg0: string) => void; }) => {
+export const GET = (req: any, res: any) => {
+    // res.cookie('name', 'value', { httpOnly: true });
+    res.clearCookie('name');
     res.send('GET /api/hello');
 }
