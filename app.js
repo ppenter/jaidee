@@ -9,6 +9,10 @@ module.exports = {
     {
       "from": "/desk",
       "to": "/jaidee/pages/desk"
+    },
+    {
+      "from": "/login",
+      "to": "/jaidee/pages/login"
     }
   ]
 }
